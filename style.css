@@ -36,7 +36,9 @@
     font-size: smaller;
 }
 /*style code*/
-
+body{
+    margin:0;
+}
 .header {
     justify-content: space-around;
     display: flex;
