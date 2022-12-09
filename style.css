@@ -1,0 +1,157 @@
+.secondportionH {
+    font-size: 48px;
+    color:#f9faf8;
+}
+.secondportionb {
+    font-size: 18px;
+    color:#e5e7eb;
+}
+
+.signup {
+    background-color: #3882f6;
+    width: 75px;
+    border-radius: 8px;
+}
+
+.thirdportionheader{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+.picture {
+    border:5px solid #3882f6;
+    border-radius: 4px;
+    
+}
+
+.fourthportioncontainer {
+    background-color:#e5e7eb;
+}
+.quote {
+    font: 36px;
+    color: #1f2937;
+    font-style:italic;
+}
+.footer {
+    font-size: smaller;
+}
+/*style code*/
+
+.header {
+    justify-content: space-around;
+    display: flex;
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+.secondportion {
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.links{
+    display: flex;
+    gap: 8px;
+    list-style: none;
+}
+
+.secondportion_1 {
+    flex:1;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.split {
+    display: flex;
+    justify-content: left;
+    justify-content: space-between;
+}
+
+.secondportion_1_1{
+    flex:1;
+    font: 48px;
+    font-weight: bolder;
+    justify-self: center;
+    
+
+}
+
+.thirdportion {
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    align-items: center;
+}
+
+.thirdportioncontainer{
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    width: 100%;
+    gap: 8px;
+}
+.set {
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    gap: 8px;
+    align-items: center;
+}
+.picture {
+    flex:1;
+    max-width: 125px;
+    min-height: auto;
+    
+}
+.picturetext {
+    flex:1;
+    text-align: center;
+    
+}
+
+.fourthportioncontainer {
+    display: flex;
+    justify-content: center ;
+}
+.quoteauthor {
+    max-width: 400px;
+    max-height:auto ;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.author {
+    align-self: flex-end;
+}
+
+.fifthportioncontainer {
+    display: flex;
+    justify-content: center;
+    padding: 45px;
+    
+}
+.fifthportioncontainer_child {
+    display: flex;
+    gap: 8px;
+    background-color: #3882f6;
+    max-width: 600px;
+    max-height:auto ;
+    border-radius: 8px;
+    padding: 45px;
+}
+.fifthportion_button {
+    gap: 8px;
+    border-radius: 4px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 25px;
+}
